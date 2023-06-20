@@ -57,7 +57,7 @@ const Tweet = ({ tweet }: Props) => {
           <p>{tweet.body}</p>
         </Box>
         <Box $borderThickness="0">
-          <div>Posted at: {formattedDate(tweet.createdAt)}</div>
+          <span>Posted at: {formattedDate(tweet.createdAt)}</span>
         </Box>
         <Box $borderThickness="0">
           <Cluster style={{ zIndex: 3 }}>

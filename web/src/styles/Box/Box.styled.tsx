@@ -18,6 +18,7 @@ export const Box = styled.div<BoxProps>`
   outline: 0.125rem solid transparent;
   outline-offset: -0.125rem;
   box-shadow: none;
+  line-height: var(--s0);
   filter: ${(props) => props.inverted && 'invert(100%)'};
 
   & * {

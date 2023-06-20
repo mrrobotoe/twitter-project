@@ -19,4 +19,5 @@ export const SubmitButton = styled(Submit)`
 
 export const TextArea = styled(TextAreaField)`
   padding: var(--s0);
+  resize: vertical;
 `
